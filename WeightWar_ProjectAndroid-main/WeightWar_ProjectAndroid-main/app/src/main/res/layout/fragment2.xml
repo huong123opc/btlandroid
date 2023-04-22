@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="5dp"
+    >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="0.6">
+        <TextView
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="#534340"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:padding="2dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chedo"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.4">
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="13dp" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quill"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|bottom"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

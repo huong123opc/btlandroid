@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:background="#534340">
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/a"
+            android:textColor="@color/white"
+            android:text="@string/dulieu1"
+            android:textSize="20dp"
+            />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/cao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/bang"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/chieucao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Chieucao"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bamcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bấm"
+                android:textColor="#534340"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/can"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:background="@drawable/bang"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/cannang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancan"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bamcan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bấm"
+                android:textColor="#534340"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/tuoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/bang"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tuoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tuoi"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bamtuoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bấm"
+                android:textColor="#534340"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gioi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/bang"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/gioitinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Gioitinh"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bamgt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bấm"
+                android:textColor="#534340"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <TableRow android:background="#534340">
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/pt"
+            android:text="@string/ketqua"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/chiso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bang"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/bmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/banbmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vui lòng nhập dữ liệu"
+            android:textColor="#534340"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/tyle"
+        android:background="@drawable/bang"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/bmr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmr"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/banbmr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmr"
+            android:textColor="#534340"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</TableLayout>

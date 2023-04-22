@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    >
+    <TableRow  android:background="@drawable/bg_white_conner_16">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="@string/Chieucao"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            app:srcCompat="@drawable/ic_action" />
+
+
+        />
+
+    </TableRow>
+
+    <TableRow  android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/white">
+        <EditText
+            android:layout_marginTop ="5dp"
+            android:id="@+id/nhap"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text=""
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop ="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textSize="30sp"
+            android:text="cm"
+            android:padding="10dp"
+            android:background="@drawable/vien"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@color/white">
+
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="7"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"/>
+
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="8"
+            android:padding="10dp"
+
+
+            android:background="@drawable/vien"            />
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="9"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+
+            android:background="@drawable/vien"
+            />
+
+        <ImageView
+            android:layout_marginTop ="5dp"
+            android:id="@+id/imagexoa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"
+            app:srcCompat="@drawable/ic_action_xoa" />
+
+
+        />
+
+    </TableRow>
+
+
+    <TableRow  android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button  android:layout_width="0dp"
+            android:layout_marginTop ="5dp"
+            android:layout_weight="1"
+            android:id="@+id/s4"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:text="4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"/>
+
+        <Button  android:layout_width="0dp"
+            android:layout_marginTop ="5dp"
+            android:layout_weight="1"
+            android:id="@+id/s5"
+            android:textSize="30sp"
+            android:text="5"
+            android:padding="10dp"
+            android:background="@drawable/vien"            />
+        <Button  android:layout_width="0dp"
+            android:layout_marginTop ="5dp"
+            android:layout_weight="1"
+            android:id="@+id/s6"
+            android:textSize="30sp"
+            android:text="6"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+
+            android:background="@drawable/vien"
+            />
+        <TextView
+            android:layout_marginTop ="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text=""
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow  android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="1"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"/>
+
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="2"
+            android:padding="10dp"
+            android:background="@drawable/vien"            />
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="3"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+
+            android:background="@drawable/vien"
+            />
+        <Button
+            android:layout_marginTop ="5dp"
+            android:id="@+id/C"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="C"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"
+            android:textColor="#534340"
+            />
+
+    </TableRow>
+
+    <TableRow  android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="0"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/vien"/>
+
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop ="5dp"
+            android:id="@+id/s00"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="00"
+            android:padding="10dp"
+            android:background="@drawable/vien"            />
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/sphay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text=","
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop ="5dp"
+            android:background="@drawable/vien"
+            />
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/sbang"
+            android:layout_marginTop ="5dp"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="="
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btnbang"
+            />
+
+    </TableRow>
+
+
+
+
+</TableLayout>

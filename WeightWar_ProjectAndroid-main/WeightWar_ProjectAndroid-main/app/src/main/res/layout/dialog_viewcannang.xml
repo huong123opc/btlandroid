@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+
+        android:id="@+id/ngayview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngay "
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#FAF6F6"
+        android:background="@drawable/btnbang"/>
+    <TextView
+        android:id="@+id/cannangview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="106kg "
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#534340"
+        />
+    <TextView
+        android:id="@+id/taptheducview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Co tap the thao"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#55503D"
+       />
+    <TextView
+        android:id="@+id/uongnuocview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uongnuocdaydu "
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#6C6752"
+        />
+    <TextView
+        android:id="@+id/ghichuview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghi chu "
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#6A6766"
+       />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center">
+    <Button
+        android:padding="2dp"
+        android:id="@+id/Suaview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/sua"
+        android:textColor="@color/white"
+        android:background="@drawable/btnbang"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:padding="2dp"
+        android:id="@+id/huyview"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/huy"
+        android:textColor="@color/white"
+        android:background="@drawable/btnbang"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>
+
+
+</LinearLayout>

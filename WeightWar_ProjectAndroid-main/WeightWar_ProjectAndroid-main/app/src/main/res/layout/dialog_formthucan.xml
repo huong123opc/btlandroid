@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ngayform"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_conner_16"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/Thucan"
+        android:textColor="#FAF6F6"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="@string/date"
+            android:textColor="#F000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:background="@drawable/border"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:text="2022-12-12"
+            android:textColor="#f000"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_margin="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Buasang"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#534340"
+        android:layout_marginLeft="15dp"/>
+    <EditText
+        android:id="@+id/buasang"
+        android:background="@drawable/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Buasang"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:ems="11"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Buatrua"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#534340"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/buatrua"
+            android:background="@drawable/border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Buatrua"
+            android:textSize="25dp"
+            android:padding="4dp"
+            android:ems="11"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Buatoi"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#534340"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/buatoi"
+            android:background="@drawable/border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Buatoi"
+            android:textSize="25dp"
+            android:ems="11"
+            android:layout_marginLeft="15dp"
+            android:padding="4dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Buaphu"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#534340"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/buaphu"
+            android:background="@drawable/border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Buaphu"
+            android:textSize="25dp"
+            android:ems="11"
+            android:layout_marginLeft="15dp"
+            android:padding="4dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/luuthucan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/btnbang"
+            android:layout_marginRight="25dp"
+            android:text="@string/luu"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/huythucan"
+            android:textColor="@color/white"
+            android:background="@drawable/btnbang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/huy"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
